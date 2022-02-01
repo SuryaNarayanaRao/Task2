@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="survey_form.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">     <body>
+        <form id="form">
+    
+            <!-- Details -->
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="name"
+                    placeholder="Enter your name" /><br>
+            </div>
+    
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+    
+                <!-- Input Type Email-->
+                <input type="email"
+                    id="email"
+                    placeholder="Enter your email" /><br>
+            </div>
+    
+            <div class="form-control">
+                <label for="age" id="label-age">
+                    Age
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="age"
+                    placeholder="Enter your age" /><br>
+            </div>
+    
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Which option best describes you?
+                </label>
+                
+                <!-- Dropdown options -->
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">
+                        Professional
+                    </option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+    
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                        id="recommed-1"
+                        name="recommed">Yes</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                        id="recommed-2"
+                        name="recommed">No</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                        id="recommed-3"
+                        name="recommed">Maybe</input>
+                </label>
+            </div>
+    
+            <div class="form-control">
+                <label>Languages and Frameworks known
+                    <small>(Check all that apply)</small>
+                </label><br>
+                <!-- Input Type Checkbox -->
+                <label for="inp-1">
+                    <input type="checkbox"
+                        name="inp">CSS</input></label><br>
+                <label for="inp-2">
+                    <input type="checkbox"
+                        name="inp">JavaScript</input></label><br>
+                <label for="inp-3">
+                    <input type="checkbox"
+                        name="inp">HTML</input></label><br>
+                <label for="inp-4">
+                    <input type="checkbox"
+                        name="inp">BOOTSTRAP</input></label><br>
+                                        
+            </div>
+    
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label><br>
+    
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+    
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+        </form>
+    
+  </body>
+  </html>
